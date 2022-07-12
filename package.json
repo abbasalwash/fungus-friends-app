@@ -1,0 +1,48 @@
+{
+    "name": "fungus-friends-app",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/abbasalwash/fungus-friends-app"
+    },
+    "author": "Abbas Alwash",
+    "license": "UNLICENSED",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "test:coverage": "react-scripts test --coverage --watchAll",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+    ],
+    "dependencies": {
+        "bootstrap": "^5.1.3",
+        "leaflet": "^1.8.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-leaflet": "^4.0.1",
+        "typescript": "^4.7.4",
+        "web-vitals": "^2.1.4"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.3.0",
+        "@testing-library/user-event": "^14.2.1",
+        "@types/jest": "^28.1.4",
+        "@types/leaflet": "^1.7.11",
+        "@types/node": "^18.0.0",
+        "@types/react": "^18.0.14",
+        "@types/react-dom": "^18.0.5",
+        "react-scripts": "^5.0.1"
+    }
+}
